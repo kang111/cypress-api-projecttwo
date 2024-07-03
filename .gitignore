@@ -8,4 +8,4 @@ node_modules
 mochawesome-report
 
 #Ignore reports folder
-reports
+cypress/reports
