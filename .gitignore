@@ -5,7 +5,7 @@ node_modules
 .DS_store
 
 #Ignore generated reports
-mochawesome-report
+mochawesome-report/
 
 #Ignore reports folder
-cypress/reports
+cypress/reports/
