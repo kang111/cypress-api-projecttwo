@@ -1,5 +1,5 @@
 describe('All Booking GET Tests',()=>{
-    it('GET Request: Should return complete booking info in xml format', ()=>{
+    it('GET Request: Should return booking info in xml format', ()=>{
         let bid = 465;
         cy.request({
             url: `https://restful-booker.herokuapp.com/booking/${bid}`,
@@ -18,7 +18,7 @@ describe('All Booking GET Tests',()=>{
             expect(specificNode.textContent).to.equal('111');
         })
     })
-    it('GET Reqest: Should return complete booking info in JSON format', ()=>{
+    it('GET Reqest: Should return booking info in JSON format when accept header not specified', ()=>{
         let bid = 465;
         cy.request({
             url: `https://restful-booker.herokuapp.com/booking/${bid}`,
