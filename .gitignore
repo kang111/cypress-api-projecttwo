@@ -9,3 +9,6 @@ mochawesome-report/
 
 #Ignore reports folder
 cypress/reports/
+
+#ignore screenshots and videos
+cypress/screenshots
